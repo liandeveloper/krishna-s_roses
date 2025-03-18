@@ -80,6 +80,7 @@ body {
 .products {
     padding: 2rem;
     text-align: center;
+    background-color: #999;
 }
 
 .products h2 {
@@ -94,17 +95,17 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    text-align: center;
-    transition: box-shadow 0.3s;
 }
 
 .card img {
-    max-width: 100%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     border-radius: 8px;
 }
 
